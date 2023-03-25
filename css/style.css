@@ -14,10 +14,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    position: absolute;
 }
 
 .container .wrapper {
-    width: 90%;
+    width: 80%;
     height: 90vh;
     background: white;
     border-radius: 40px;
@@ -97,6 +98,158 @@
 
 /* end header */
 
+/* content wrapper */
+.container .wrapper .content_wrapper {
+    width: 100%;
+    display: flex;
+    margin-bottom: 8%;
+}
+
 /* Aside left */
+.container .wrapper .content_wrapper .left {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+.container .wrapper .content_wrapper .left .title {
+    width: 100%;
+    height: 100px;
+    line-height: 100px;
+    font-size: 40px;
+    color: rgb(255, 9, 124);
+}
+
+.container .wrapper .content_wrapper .left .content_left {
+    display: flex;
+}
+
+.container .wrapper .content_wrapper .left .content_left .description {
+    width: 75%;
+    line-height: 2;
+    font-size: 1rem;
+    font-weight: normal;
+}
+
+.container .wrapper .content_wrapper .left .content_left .description span {
+    color: rgb(21, 189, 255);
+    text-decoration: underline;
+}
+
+.container .wrapper .content_wrapper .left .content_left .description p {
+    margin-bottom: 20px;
+}
+
+.container .wrapper .content_wrapper .left .content_left .images {
+    width: 25%;
+    padding: 10px 10px 10px 10px;
+    margin: 0 20px;
+    border: 1px solid rgb(202, 202, 202);
+}
+
+.container .wrapper .content_wrapper .left .content_left .images img {
+    width: 100%;
+    height: 100%;
+}
 
 /* Aside right */
+.container .wrapper .content_wrapper .right {
+    width: 30%;
+    padding-top: 20px;
+}
+
+.container .wrapper .content_wrapper .right .launch {
+    width: 100%;
+    border: 1px solid rgba(21, 189, 255, 0.5);
+    border-radius: 20px;
+    padding: 0 20px;
+    background: rgba(21, 189, 255, 0.1);
+    margin-bottom: 10px;
+}
+
+.container .wrapper .content_wrapper .right .launch .title {
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 0px;
+    line-height: 3rem;
+    font-size: 28px;
+    font-weight: 700;
+    color: rgb(38, 212, 38);
+    text-shadow: 0.5px 2px 10px greenyellow;
+}
+
+.container .wrapper .content_wrapper .right .launch .time {
+    width: 100%;
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+}
+
+.container .wrapper .content_wrapper .right .launch .content_launch {
+    font-size: 1rem;
+    font-weight: normal;
+    margin-bottom: 1rem;
+}
+
+.container .wrapper .content_wrapper .right .launch .content_launch a {
+    color: rgb(21, 189, 255);
+}
+
+.container .wrapper .content_wrapper .right .form_login {
+    width: 100%;
+    border: 1px solid rgba(21, 189, 255, 0.5);
+    background: rgba(21, 189, 255, 0.1);
+    border-radius: 20px;
+    padding: 0px 20px;
+    font-size: 1rem;
+}
+
+.container .wrapper .content_wrapper .right .form_login .title_form {
+    width: 100%;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: rgb(38, 212, 38);
+    text-shadow: 0.5px 2px 10px greenyellow;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.container .wrapper .content_wrapper .right .form_login .userName input,
+.password input {
+    width: 80%;
+    padding: 5px 10px;
+    border-radius: 8px;
+    outline: none;
+    border: 1px solid rgb(201, 201, 201);
+    margin-bottom: 5px;
+}
+
+.container .wrapper .content_wrapper .right .form_login .remember {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.container .wrapper .content_wrapper .right .form_login .btn {
+    width: 100%;
+}
+
+.container .wrapper .content_wrapper .right .form_login .btn input {
+    padding: 5px 10px;
+    border-radius: 8px;
+    border: 1px solid rgb(201, 201, 201);
+    margin-bottom: 10px;
+}
+
+/* Style footer */
+.container .wrapper footer {
+    position: relative;
+    width: 100%;
+    height: 80px;
+    background: rgb(21, 189, 255);
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    text-align: center;
+    line-height: 80px;
+    color: white;
+    font-weight: 600;
+    font-size: 1.5rem;
+}git 
